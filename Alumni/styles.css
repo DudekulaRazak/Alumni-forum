@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    padding: 10px;
+    background-color:#e47216;
+}
+header img{
+    padding-left: 10px;
+    width: 30px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+header a:hover{
+    background-color: orange;
+}
+#button{
+    position: relative;
+    left: 40%;
+    bottom: 5px;
+    padding: 10px;
+    border: .5px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ddcccc;
+}
+#button:hover{
+    background-color: #f7a63d;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.4), #c4a88c) ,url(images/clg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: sticky;
+}
+.banner h1{
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    position: relative;
+    top: 4%;
+    z-index: 1;
+}
+.banner img{
+    cursor: pointer;
+    position: fixed;
+    bottom: 7%;
+    right: 4%;
+}
+.icons{
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+.analysisicons{
+    display: flex;
+}
+.analysisicons div{
+    padding-left: 15%;
+}
+#icons{
+    height: 50px;
+}
+
+#icons1{
+    margin-left: 200px;
+    margin-top: 40px;
+    height: 30px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+}
+.heading{
+    color: #db6e26;
+    font-size: 500%;
+    position: absolute;
+    left: 12.5%;
+    bottom: 15%;
+    background: linear-gradient(rgba(0,0,0,0.4),#242323),url(images/stu.jpg);
+    padding: 11%;
+}
+.heading:hover{
+    transform: scale(1.03);
+    transition: 1s;
+
+}
+.cardsection{
+    background: linear-gradient(rgba(0,0,0,-0.4),#f7a63d);
+}
+
+.main{
+    margin-top: 5%;
+    margin-left: 20%;
+   }
+.card{
+    width: 25%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px rgb(68, 68, 68);
+    border-radius: 5px; 
+    margin: 2%;
+    background-color: #ffffff;
+   }
+   
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+}
+.card:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: 1s;
+} 
+
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+ margin-top: 40px;
+ margin-bottom: 10px;
+ background-color: white;
+ border: 1px solid black;
+ border-radius: 5px;
+ padding:10px;
+}
+button:hover{
+ background-color: black;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
+#ouralumni{
+   font-weight: bold;
+   font-size: 70px;
+   color: orange;
+   
+}
+.alumnispeaks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+#alumnispeak{
+    color: white;
+    font-size: 150px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+}
+
+
+
+
+#contactus{
+    background-color: #191818;
+    padding: 7%;
+}
+.contact h3{
+    text-align: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact ul{
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+.contact ul li{
+    color: #929292;
+}
+
+
+.socialmedia{
+    text-align: center;
+}
+.socialmedia .fa{
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 3px solid rgb(241, 113, 9);
+    border-radius: 6px;
+    color: rgb(241, 113, 9);
+    cursor: pointer;
+    transition: .5s;
+}
+.socialmedia .fa:hover{
+    background-color: rgb(241, 113, 9);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+
+
+footer{
+    background-color: rgb(43, 42, 42);
+    padding: 15px;
+}
+footer a{
+    color: #fff;
+    font-style: oblique;    
+    margin-left: 20px;
+    text-decoration:none;
+}
